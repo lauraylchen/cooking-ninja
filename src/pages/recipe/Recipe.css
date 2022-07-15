@@ -20,6 +20,10 @@
   }
 }
 
+.recipe h2 {
+  margin-top: 0;
+}
+
 .cooking-time {
   margin-bottom: 1em;
 }
