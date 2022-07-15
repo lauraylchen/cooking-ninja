@@ -18,10 +18,12 @@ export default function Recipe() {
       {recipe && (
         <>
           <h2 className="page-title">{recipe.title}</h2>
-          <p>Takes {recipe.cookingTime} to cook.</p>
+          <p className="cooking-time">Takes {recipe.cookingTime} to cook.</p>
+          <h3>Ingredients:</h3>
           <ul>
             {recipe.ingredients.map(ing => <li key={ing}>{ing}</li>)}
           </ul>
+          <h3>Method:</h3>
           <p className="method">{recipe.method}</p>
         </>
       )}
