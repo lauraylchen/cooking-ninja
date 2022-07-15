@@ -16,7 +16,7 @@ export default function Recipe() {
       {error && <p className="error">{error}</p> }
       {isPending && <p className="loading">Loading ...</p>}
       {recipe && (
-        <>
+        <div className="card">
           <h2 className="page-title">{recipe.title}</h2>
           <p className="cooking-time">Takes {recipe.cookingTime} to cook.</p>
           <h3>Ingredients:</h3>
@@ -25,7 +25,7 @@ export default function Recipe() {
           </ul>
           <h3>Method:</h3>
           <p className="method">{recipe.method}</p>
-        </>
+        </div>
       )}
     </div>
   )
