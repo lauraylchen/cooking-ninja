@@ -47,3 +47,8 @@
   border-radius: 4px;
   margin: 20px auto 0;
 }
+
+.recipe-list .card a:hover {
+  color: #FFF;
+  background-color: #555;
+}
