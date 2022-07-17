@@ -37,3 +37,13 @@
 .create button:hover {
   filter: grayscale(50%);
 }
+
+.ingredients {
+  display: flex;
+  align-items: center;
+}
+
+.ingredients button {
+  margin: 0 0 0 10px;
+  flex-shrink: 2;
+}
