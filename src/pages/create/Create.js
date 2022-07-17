@@ -40,6 +40,7 @@ export default function Create() {
             required
           />
         </label>
+
         <label>
           <span>Recipe Ingredients:</span>
           <div className='ingredients'>
@@ -52,6 +53,8 @@ export default function Create() {
             <button onClick={handleAdd} className='btn'>Add</button>
           </div>
         </label>
+        <p>Current Ingredients: {ingredients.map(i => <em key={i}>{i}, </em>)}</p>
+
         <label>
           <span>Recipe Method:</span>
           <textarea
@@ -60,6 +63,7 @@ export default function Create() {
             required
           />
         </label>
+
         <label>
           <span>Cooking Time (minutes):</span>
           <input
@@ -69,6 +73,7 @@ export default function Create() {
             required
           />
         </label>
+
         <button className='btn'>Submit</button>
       </form>
     </div>
