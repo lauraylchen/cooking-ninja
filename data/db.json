@@ -36,6 +36,23 @@
       ],
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Quick and Easy Brownies",
+      "ingredients": [
+        "1 cup butter(melted)",
+        "2 cups white sugar",
+        "1/2 cup cocoa powder",
+        "1 teaspoon vanilla extract",
+        "4 eggs",
+        "1 1/2 cups all-purpose flour",
+        "1/2 teaspoon baking powder",
+        "1/2 teaspoon salt",
+        "1/2 cup walnut halves"
+      ],
+      "method": "1- Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x13-inch pan. 2- Combine the melted butter, sugar, cocoa powder, vanilla, eggs, flour, baking powder, and salt. Spread the batter into the prepared pan. Decorate with walnut halves, if desired. 3- Bake in preheated oven for 20 to 30 minutes or until a toothpick inserted in the center comes out with crumbs, not wet. Cool on wire rack.",
+      "cookingTime": "45 minutes",
+      "id": "gu3ZVQR"
     }
   ]
 }
