@@ -1,3 +1,7 @@
+.searchbar {
+  position: relative;
+}
+
 .searchbar form {
   display: flex;
   align-items: center;
@@ -5,4 +9,12 @@
 
 .searchbar input {
   margin: 0 10px;
+}
+
+.searchbar svg {
+  height: 50%;
+  position: absolute;
+  right: 20px;
+  bottom: 50%;
+  transform: translateY(50%);
 }
