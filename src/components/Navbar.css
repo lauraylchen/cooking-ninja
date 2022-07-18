@@ -1,13 +1,3 @@
-@media (max-width: 767.98px) {
-  .navbar a.brand {
-    font-size: 1.2rem;
-  }
-
-  .choices a {
-    font-size: 1rem;
-  }
-}
-
 .navbar {
   background: #58249C;
   padding: 20px;
@@ -44,4 +34,18 @@
 .choices a:hover {
   background: #FFF;
   color: #333;
+}
+
+@media (max-width: 767.98px) {
+  .navbar nav {
+    justify-content: center;
+  }
+
+  .navbar a.brand {
+    display: none;
+  }
+
+  .choices a {
+    font-size: 1rem;
+  }
 }
