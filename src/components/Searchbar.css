@@ -1,8 +1,8 @@
-.search form {
+.searchbar form {
   display: flex;
   align-items: center;
 }
 
-.search input {
-  margin-left: 10px;
+.searchbar input {
+  margin: 0 10px;
 }

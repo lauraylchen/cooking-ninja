@@ -27,7 +27,13 @@
   text-decoration: none;
 }
 
-.navbar a:last-child {
+.choices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.choices a {
   color: #FFF;
   text-decoration: none;
   padding: 8px;
@@ -35,7 +41,7 @@
   border-radius: 4px;
 }
 
-.navbar a:last-child:hover {
+.choices a:hover {
   background: #FFF;
   color: #333;
 }
