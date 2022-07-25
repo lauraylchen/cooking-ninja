@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+JSON SERVER:
+CODE: https://github.com/lauraylchen/cooking-ninja-json
+WEB: https://cooking-ninja-json.herokuapp.com/recipes/
+
 ## Available Scripts
 
 In the project directory, you can run:
