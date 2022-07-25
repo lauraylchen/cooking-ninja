@@ -4,7 +4,7 @@
   grid-gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1199.98px) {
