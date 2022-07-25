@@ -7,7 +7,7 @@ import './Home.css'
 import RecipeList from '../../components/RecipeList'
 
 export default function Home() {
-  const { data: recipes, isPending, error} = useFetch('http://localhost:3000/recipes')
+  const { data: recipes, isPending, error} = useFetch('https://cooking-ninja-json.herokuapp.com/recipes')
 
   return (
     <div className='home'>

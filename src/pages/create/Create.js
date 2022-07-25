@@ -19,7 +19,7 @@ export default function Create() {
   const { color, mode } = useTheme()
 
   // Fetch data from Form for POST method
-  const { postData, data } = useFetch('http://localhost:3000/recipes', 'POST')
+  const { postData, data } = useFetch('https://cooking-ninja-json.herokuapp.com/recipes', 'POST')
 
   const handleSubmit = (e) => {
     e.preventDefault()

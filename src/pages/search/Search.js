@@ -9,7 +9,7 @@ export default function Search() {
   const queryParams = new URLSearchParams(queryString)
   const query = queryParams.get('q')
 
-  const url = 'http://localhost:3000/recipes?q=' + query
+  const url = 'https://cooking-ninja-json.herokuapp.com/recipes?q=' + query
 
   const { data: recipes, isPending, error } = useFetch(url)
 
