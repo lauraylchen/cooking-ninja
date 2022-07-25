@@ -67,3 +67,19 @@
   color: #FFF;
   background-color: #555;
 }
+
+/* dark mode */
+.recipe-list .card.dark {
+  background: #555;
+}
+
+.recipe-list .card.dark p,
+.recipe-list .card.dark h3,
+.recipe-list .card.dark div {
+  color: #E4E4E4;
+}
+
+.recipe-list .card.dark a:hover {
+  background-color: #FFF;
+  color: #555;
+}
