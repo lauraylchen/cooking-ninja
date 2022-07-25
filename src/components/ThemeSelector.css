@@ -4,6 +4,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 20px auto;
+  padding: 0 20px;
 }
 
 .theme-buttons div {
@@ -13,4 +14,10 @@
   cursor: pointer;
   margin-left: 15px;
   border-radius: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .theme-selector {
+    justify-content: center;
+  }
 }
