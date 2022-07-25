@@ -1,9 +1,6 @@
 import { useLocation } from 'react-router-dom'
 import { useFetch } from '../../hooks/useFetch'
 
-// styles
-import './Search.css'
-
 // components
 import RecipeList from '../../components/RecipeList'
 
