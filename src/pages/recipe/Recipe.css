@@ -49,3 +49,13 @@
 .method {
   line-height: 1.5em;
 }
+
+/* dark mode */
+.recipe.dark .card {
+  background: #555;
+  color: #E4E4E4;
+}
+
+.recipe.dark li {
+  color: #999;
+}
