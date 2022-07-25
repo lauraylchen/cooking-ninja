@@ -39,3 +39,14 @@ input, textarea {
   text-align: center;
   margin: 40px auto;
 }
+
+/* dark mode*/
+
+.dark .page-title {
+  color: #999;
+}
+
+.dark .loading,
+.dark .error {
+  color: #999;
+}
